@@ -6,6 +6,8 @@ import {
   useLocation,
 } from "react-router-dom";
 import Home from "./pages/Home";
+import Work from "./pages/Work";
+import Blog from "./pages/Blog";
 
 function App() {
   const action = useNavigationType();
@@ -22,6 +24,18 @@ function App() {
     let title = "";
     let metaDescription = "";
 
+    switch (pathname) {
+      case "/":
+        title = "";
+        metaDescription = "";
+        break;
+    }
+    switch (pathname) {
+      case "/":
+        title = "";
+        metaDescription = "";
+        break;
+    }
     switch (pathname) {
       case "/":
         title = "";
@@ -46,6 +60,8 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/work" element={<Work />} />
+      <Route path="/blog" element={<Blog />} />
     </Routes>
   );
 }

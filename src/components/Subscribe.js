@@ -27,7 +27,7 @@ const Contact = ({ className = "" }) => {
                   src="/email.svg"
                 />
                 <div className="relative leading-[150%] whitespace-nowrap cursor-pointer ">
-                  jhankevi@gmail.com
+                  er.tripathianubhav@gmail.com
                 </div>
               </div>
               <div className="w-12 rounded-lg bg-shade-5 box-border flex flex-row items-center justify-center py-2.5 px-[11px] border-[1px] border-solid border-shade-3 cursor-pointer hover:bg-gainsboro-200 hover:box-border hover:border-[1px] hover:border-solid">

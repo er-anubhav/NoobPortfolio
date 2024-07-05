@@ -10,6 +10,7 @@ const Footer = ({
   propBorderRadius,
   propBackgroundColor,
   propBorder,
+  onClick,
 }) => {
   const footerStyle = useMemo(() => {
     return {
@@ -33,6 +34,7 @@ const Footer = ({
     <div
       className={`self-stretch flex flex-row items-start justify-center py-0 px-5 text-left text-sm text-shade-2 font-paragraph-sm ${className}`}
       style={footerStyle}
+      onClick={onClick}
     >
       <div className="relative leading-[24px]">{jhanGonzales}</div>
     </div>
@@ -42,6 +44,7 @@ const Footer = ({
 Footer.propTypes = {
   className: PropTypes.string,
   jhanGonzales: PropTypes.string,
+  onClick: PropTypes.func,
 
   /** Style props */
   propAlignSelf: PropTypes.any,

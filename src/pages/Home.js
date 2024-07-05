@@ -3,7 +3,7 @@ import FrameComponent from "../components/FrameComponent";
 import Blogs from "../components/Blogs";
 import Footer from "../components/Footer";
 import Project from "../components/Project";
-import Contact from "../components/Contact";
+import Contact from "../components/Subscribe";
 
 const Home = () => {
   return (
