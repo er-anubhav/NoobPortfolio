@@ -1,5 +1,5 @@
 
-  # To Install and Run
+  # To Install and Run the Application
 
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 
